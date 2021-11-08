@@ -1,23 +1,17 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="どうしても宿題をやりたくない俺"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「どうしても宿題をやりたくない俺」[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+ああああ実験レポめんどくせえぇ。[l][r]
 
 [link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_lie] →ソファーに横になる [endlink][r]
+[link target=*tag_wind] →一度風に当たる [endlink][r]
 [s]
 
 *tag_sleep
@@ -26,21 +20,40 @@
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+俺は死んだように深く眠った。[l][r]
+実験レポは時間内に提出できなかったが、[l][r]
+疲れが取れて最高に気持ちのいい朝を迎えた。[l][r]
+
+【 GOOD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_lie
+
+[bg storage=sofa.jpg time=500]
+
+[cm]
+俺は疲れた体をソファーに横たえ、眠った。[l][r]
+....[l][r]
+[cm]
+早朝、窓から差し込む日差しにくすぐられ目が覚めてしまった。[l][r]
+ああ実験レポやってねえぇ[l][r]
+しょうがなく実験レポに取り掛かった[l][r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_wind
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+[bg storage=window.jpg time=500]
+
+一度風に当たるか！[l][r]
+キモチエエェェ！[l][r]
+まあ今日は疲れたし実験レポは明日の朝やろ[l][r]
+明日の朝の俺、頑張れ！[l][r]
+明日の朝の俺は勇気をもらった[l][r]
 
 【 GOOD END 】[l][cm]
-
-[jump target=*start]
